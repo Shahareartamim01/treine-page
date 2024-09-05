@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #1c1e21;
+}
+
+
+
+#nav-area{
+    display: flex;
+    justify-content: space-between;
+    width: 1036.95px;
+    height: 23px;
+    margin: 43px auto 0;
+    padding:  0 80px;
+    position: relative;
+    z-index: 1000;
+
+
+}
+
+.nav-logo{
+    width: 106.59px;
+    height: 22px;
+}
+
+.nav-logo h2{
+    color: #69b99d;
+}
+
+ul{
+    display: flex;
+    width: 273.25px;
+    height: 23px;
+    justify-content: space-around;
+}
+
+.selected{
+    font-weight: bold;
+    color: black;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #b9b6bf;
+}
+
+ul li a:hover{
+    border-bottom: 3px solid #69b99d;
+}
+
+.colored{
+    color: #69b99d;
+}
+
+.hero-area{
+    display: flex;
+    justify-content: center;
+    width: 1036.95px;
+    margin:  90px auto;
+    padding: 0 180px;
+}
+
+
+.text-area{
+    position: relative;
+    left: 45px;
+    height: 100%;
+} 
+   
+
+.text-area h1{
+    font-size: 40px;
+    font-weight: bold;
+    width: 450px;
+    height: 120px;
+}
+
+.text-area p{
+    width: 349px;
+    height: 78px;
+    color: #85818f;
+    line-height: 27px;
+    margin-bottom: 36px;
+}
+
+.text-area p span{
+    font-weight: bold;
+    color: #7d7987;
+}
+
+.text-area button{
+    background: #69b99d;
+    border: 1px solid #69b99d;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 15px 22px;
+    border-radius: 4px;
+    height: 60px;
+    
+}
+
+.text-area button p{
+    display: inline-block;
+    font-size: 16px;
+    position: relative;
+    bottom: 5px;
+    width: 73px;
+    height: 21px;
+    margin-left: 8px;
+    color: #fff;
+}
+
+.text-area img{
+    width: 24px;
+    height: 24px;
+    
+}
+
+.image-area{
+    height: 380px;
+}
+
+.image-area img{
+    width: 520px;
+    height: 515.21px;
+    position: relative;
+    bottom: 100px;
+}
+
+.footer-area{
+    text-align: center;
+   
+
+}
+
+.footer-area p{
+    margin: auto auto 50px;
+    width: 592px;
+    height: 22px;
+}
+
+.footer-area p a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+}
+
+.footer-area p a:hover{
+    text-decoration: underline;
+}
+
