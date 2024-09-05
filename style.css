@@ -16,10 +16,10 @@ body{
 #nav-area{
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 1036.95px;
     height: 23px;
     margin: 43px auto 0;
-    padding:  0 51px;
+    padding:  0 80px;
     position: relative;
     z-index: 1000;
 
@@ -57,13 +57,13 @@ ul li a:hover{
 }
 
 .colored{
-    color: #89c5cc;
+    color: #69b99d;
 }
 
 .hero-area{
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 1036.95px;
     margin:  90px auto;
     padding: 0 180px;
 }
@@ -71,7 +71,7 @@ ul li a:hover{
 
 .text-area{
     position: relative;
-    left: px;
+    left: 45px;
     height: 100%;
 } 
    
@@ -81,8 +81,6 @@ ul li a:hover{
     font-weight: bold;
     width: 450px;
     height: 120px;
-    line-height: 58px;
-    margin-bottom: 15px;
 }
 
 .text-area p{
@@ -136,8 +134,6 @@ ul li a:hover{
     height: 515.21px;
     position: relative;
     bottom: 100px;
-    right: 0;
-    left: 28px;
 }
 
 .footer-area{
